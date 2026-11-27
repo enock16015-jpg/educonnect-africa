@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBmO4pX_eaq3lexsySmrX-6ltaY328Pxi8",
+  apiKey: "AIzaSyBm04pX_eaq3lexsySmrX-6ItaY328Pxi8",
   authDomain: "educonnect-africa-31051.firebaseapp.com",
   projectId: "educonnect-africa-31051",
   storageBucket: "educonnect-africa-31051.firebasestorage.app",
