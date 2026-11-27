@@ -1,67 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>EduConnect Africa</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f0f4f8;
-            text-align: center;
-        }
-        header {
-            background: #075e54;
-            color: white;
-            padding: 25px;
-        }
-        h1 {
-            font-size: 30px;
-        }
-        .welcome {
-            padding: 30px 15px;
-        }
-        .card {
-            background: white;
-            margin: 15px;
-            padding: 20px;
-            border-radius: 12px;
-        }
-        button {
-            background: #075e54;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            border-radius: 6px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduConnect Africa - Auth</title>
 </head>
 <body>
 
-<header>
-    <h1>EduConnect Africa</h1>
-    <p>Learn • Connect • Compete</p>
-</header>
+  <h1>Sign Up / Log In</h1>
 
-<div class="welcome">
-    <h2>Welcome to EduConnect Africa!</h2>
-    <p>A world of learning, friendship and opportunities.</p>
-</div>
+  <input type="email" id="email" placeholder="Email" required>
+  <input type="password" id="password" placeholder="Password" required>
 
-<div class="card">
-    <h2>📚 Education</h2>
-    <p>Learn, revise and share knowledge.</p>
-</div>
+  <button id="signupBtn">Sign Up</button>
+  <button id="loginBtn">Log In</button>
 
-<div class="card">
-    <h2>🌍 Student Community</h2>
-    <p>Connect with students around the world.</p>
-</div>
-
-<div class="card">
-    <h2>🏆 Competitions</h2>
-    <p>Challenge yourself and compete with others.</p>
-</div>
-
+  <script type="module" src="app.js"></script>
 </body>
-  </html>
+</html>
